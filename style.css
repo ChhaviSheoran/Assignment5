@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-sans {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    /* font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.nav-part1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-part1 img{
+    width: 125px;
+    padding: 0px 20px;
+}
+
+.nav-part1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 545;
+}
+
+.nav-part2{
+    padding: 0px 20px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-part2 button{
+    padding: 13px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+}
+
+#sign-up{
+    background-color: white;
+}
+
+#log-in{
+    background-color: black;
+    color: white;
+}
+
+.description{
+    text-align: center;
+    padding: 30px;
+}
+
+.description H1{
+    font-weight: 500;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.description p{
+    font-size: 20px;
+}
+
+.search-bar{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f6;
+    border-radius: 30px;
+    transform: translateX(50%);
+    padding: 0 18px;
+    border: none;
+}
+
+.search-bar input{
+    background-color: #f3f3f6;
+    padding: 10px;
+    width: 80%;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    outline: transparent;
+    /* color: #c5c9d3; */
+}
+
+.search-bar input::placeholder{
+    color: #c5c9d3;
+}
+
+.search-opt{
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-opt H1{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.search-opt #search-icon{
+    background-color: rgb(236 94 149);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.trend-search{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.trend-search label{
+    color: #c4c4c8;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.trend-search a{
+    text-decoration: none;
+    color: black;
+    background-color: #f3f3f6;
+    padding: 7px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.filter-nav{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.filter-nav span{
+    padding: 8px 20px;
+    border-radius: 13px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.filter-nav i{
+    font-size: 20px;
+}
+
+.filter-nav .filter-opt{
+    display: flex;
+    gap: 20px;
+}
+
+.filter-nav .filter-opt a{
+    text-decoration: none;
+    color: black;
+    /* background-color: #c5c9d3; */
+    padding: 4px 10px;
+    border-radius: 30px;
+}
+
+.filter-nav .filter-opt #discover{
+    background-color: #f3f3f6;
+}
+
+.filter-nav button{
+    padding: 7px 17px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.card1, .card2,
+.card3, .card4,
+.card5, .card6,
+.card7, .card8,
+.card9, .card10,
+.card11, .card12{
+
+    width: 23%;
+    height: 290px;
+    /* border: 2px solid crimson; */
+}
+
+section{
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    /* column-gap: 10px; */
+}
+
+.card img{
+    height: 90%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card video{
+    height: 90%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.detail-bar{
+    padding-top: 3px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bar-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6px;
+    
+}
+
+.bar-part1 .user-logo{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: burlywood;
+}
+
+.bar-part1 .badge{
+    background-color:  rgb(161 161 170);
+    padding: 0 2px;
+    color: white;
+    font-size: 13px;
+}
+
+.detail-bar .bar-part1{
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+
+.bar-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 9px;
+    padding: 5px;
+}
+
+.card1 .user-logo{
+    background: url(./user1.jpeg);
+    background-size: cover;
+}
+
+.card2 .user-logo{
+    background-image: url(./user2.jpeg);
+    background-size: cover;
+}
+
+.card3 .user-logo{
+    background-image: url(./user3.jpeg);
+    background-size: cover;
+}
+
+.card4 .user-logo{
+    background-image: url(./user4.jpeg);
+    background-size: cover;
+}
+
+.card5 .user-logo{
+    background-image: url(./user5.jpeg);
+    background-size: cover;
+}
+
+.card6 .user-logo{
+    background-image: url(./user6.jpeg);
+    background-size: cover;
+}
+
+.card7 .user-logo{
+    background-image: url(./user7.jpeg);
+    background-size: cover;
+}
+
+.card8 .user-logo{
+    background-image: url(./user8.jpeg);
+    background-size: cover;
+}
+
+.card9 .user-logo{
+    background-image: url(./user9.jpeg);
+    background-size: cover;
+}
+
+.card10 .user-logo{
+    background-image: url(./user10.jpeg);
+    background-size: cover;
+}
+
+.card11 .user-logo{
+    background-image: url(./user11.jpeg);
+    background-size: cover;
+}
+
+.card12 .user-logo{
+    background-image: url(./user12.jpeg);
+    background-size: cover;
+}
+
+.sign-up-bar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    
+}
+
+.signup-btn{
+    width: 80%;
+    height: 100%;
+    padding: 10px 50px 20px 700px;
+}
+
+.up-btn{
+    padding: 10px 20px 20px 250px;
+    width: 20%;
+    height: 100%;
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-part1, .foot-part2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #c4c4c8;
+}
