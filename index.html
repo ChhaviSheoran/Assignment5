@@ -30,11 +30,13 @@
             <p id="desc">Explore work from the most talented and accomplished designers <br>ready to take on your next project</p>
         </div>
 
-        <div class="search-bar">
-            <input type="search" placeholder="What are you looking for?">
-            <div class="search-opt">
-                <h1>Shots <i class="ri-arrow-drop-down-line"></i></h1>
-                <i id="search-icon" class="ri-search-line"></i>
+        <div class="search-bar-main">
+            <div class="search-bar">
+                <input type="search" placeholder="What are you looking for?" id="search-bar">
+                <div class="search-opt" id="search-opt">
+                    <h1>Shots <i class="ri-arrow-drop-down-line"></i></h1>
+                    <i id="search-icon" class="ri-search-line"></i>
+                </div>
             </div>
         </div>
 
@@ -49,10 +51,6 @@
         </div>
 
         <div class="filter-nav">
-            <!-- <select name="" id="">
-                <option value="Popular">Popular</option>
-                <option value="New & Noteworthy">New</option>
-            </select> -->
             <span>Popular <i class="ri-arrow-drop-down-line"></i></span>
             <div class="filter-opt">
                 <a href="#" id="discover">Discover</a>
@@ -70,182 +68,314 @@
         </div>
 
         <section>
-            <div class="card1 card">
-                <img src="card1.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card1">
+                <div class="card">
+                    <img src="card1.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Upnow Studio</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Fitness and step coun...</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
 
-            <div class="card2 card">
-                <video muted loop autoplay src="card2.mp4"></video>
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card2">
+                <div class="card">
+                    <video muted loop autoplay src="card2.mp4"></video>
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">FANCY</h4>
+                            <h4 class="badge">TEAM</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Hero 3D and Anima...</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card3 card">
-                <img src="card3.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card3">
+                <div class="card">
+                    <img src="card3.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Extej UI UX Design...</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Liverage Crypto trading...</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card4 card">
-                <img src="card4.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card4">
+                <div class="card">
+                    <img src="card4.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Emote</h4>
+                            <h4 class="badge">TEAM</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Plexo</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card5 card">
-                <img src="card5.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card5">
+                <div class="card">
+                    <img src="card5.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Victa Ville</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Altecho-Webdesign</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card6 card">
-                <img src="card6.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card6">
+                <div class="card">
+                    <img src="card6.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Bonsai</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Fitness and step coun...</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card7 card">
-                <img src="card7.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card7">
+                <div class="card">
+                    <img src="card7.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Type08(alen pavlovic)</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Doverange.</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card8 card">
-                <img src="card8.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card8">
+                <div class="card">
+                    <img src="card8.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Ronus IT|UI UXTec...</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Financial Mobile App</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card9 card">
-                <img src="card9.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card9">
+                <div class="card">
+                    <img src="card9.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Bato</h4>
+                            <h4 class="badge">TEAM</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Animated Landing Page...</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card10 card">
-                <img src="card10.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card10">
+                <div class="card">
+                    <img src="card10.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Jovel Ahmed</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Finance Logo</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card11 card">
-                <img src="card11.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card11">
+                <div class="card">
+                    <img src="card11.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Levi Lowell</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Rapid Rabbit Logo</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
             
-            <div class="card12 card">
-                <img src="card12.jpeg" alt="">
-                <div class="detail-bar">
-                    <div class="bar-part1">
-                        <div class="user-logo"></div>
-                        <h4 class="user-name">Upnow Studio</h4>
-                        <h4 class="badge">PRO</h4>
+            <div class="card12">
+                <div class="card">
+                    <img src="card12.jpeg" alt="">
+                    <div class="detail-bar">
+                        <div class="bar-part1">
+                            <div class="user-logo"></div>
+                            <h4 class="user-name">Ulysses Design Co...</h4>
+                            <h4 class="badge">PRO</h4>
+                        </div>
+                        <div class="bar-part2">
+                            <i id="heart" class="ri-poker-hearts-fill"><span> 31</span></i>
+                            <i class="ri-eye-fill"><span> 6.6k</span></i>
+                        </div>
                     </div>
-                    <div class="bar-part2">
-                        <i class="ri-poker-hearts-line"> 31</i>
-                        <i class="ri-eye-fill"> 6.6k</i>
+                </div>
+                <div class="hover-effect">
+                    <div class="hover-text">
+                        <h4>Free Sample Pack|u...</h4>
+                    </div>
+                    <div class="hover-icons">
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-bookmark-line"></i></button>
                     </div>
                 </div>
             </div>
@@ -257,12 +387,46 @@
         </div>
 
         <div class="slidder">
-            <img class="w-[10%] ml-42 mx-10"src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg" alt="">
-                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg" alt="">
-                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg" alt="">
-                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg" alt="">
-                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg" alt="">
-                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg" alt="">
+            <div class="inner">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg" alt="">
+            </div>
+            <div class="inner">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg" alt="">
+                <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg" alt="">
+            </div>
+        </div>
+
+        <div class="about-bar">
+            <div class="about-part1">
+                <img src="Dribbble-Logo.jpeg" alt="">
+            </div>
+
+            <div class="about-part2">
+                <a href="#">For Designer</a>
+                <a href="#">Hire talent</a>
+                <a href="#">Inspiration</a>
+                <a href="#">Advertising</a>
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Support</a>
+            </div>
+
+            <div class="about-part3">
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-facebook-box-fill"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-pinterest-fill"></i>
+            </div>
         </div>
 
         <footer>
